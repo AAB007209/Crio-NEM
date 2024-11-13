@@ -1,0 +1,23 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "This is my first basic HTTP server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AAB007209/http-server.git"
+  },
+  "author": "Akash A Benki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AAB007209/http-server/issues"
+  },
+  "homepage": "https://github.com/AAB007209/http-server#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
