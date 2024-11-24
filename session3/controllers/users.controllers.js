@@ -6,6 +6,17 @@ const { userSearchSchema } = require("../validations/userSearchValidation")
 // http://localhost:8082/users
 
 const getUsers = (req, res) => {
+    // if (req.headers.authorization !== "LetMeIn") {
+    //     return res.sendStatus(401);
+    // }
+    // console.log(process);
+    // if (req.headers.authorization !== process.env.password) {
+    //     return res.sendStatus(401);
+    // }
+    // - Below if is after adding .env file and setting PASSWORD in it as secret
+    if (req.headers.authorization !== process.env.PASSWORD) {
+        return res.sendStatus(401);
+    }
     res.send(usersJson.data);
 }
 
@@ -89,5 +100,8 @@ module.exports = { getUsers, getUserById, searchUsers };
 
 3. const {error} = useSearchSchema.validate({gender, age});
 - If there is an error it will be present in the above error variable else undefined
+
+4. Sending password during runtime while the process is getting started
+- set password=LetMeIn && npm run dev
 
 */

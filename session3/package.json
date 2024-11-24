@@ -1,5 +1,5 @@
 {
-  "name": "session2-cjs",
+  "name": "session3",
   "version": "1.0.0",
   "description": "This is the Classical default exports demo",
   "main": "index.js",
@@ -10,6 +10,7 @@
   "author": "Akash A Benki",
   "license": "ISC",
   "devDependencies": {
+    "dotenv": "^16.4.5",
     "nodemon": "^3.1.7"
   },
   "dependencies": {
