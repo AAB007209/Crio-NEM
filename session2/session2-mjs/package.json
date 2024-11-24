@@ -1,5 +1,5 @@
 {
-  "name": "session2-cjs",
+  "name": "session2-mjs",
   "version": "1.0.0",
   "description": "This is the Classical default exports demo",
   "main": "index.js",
