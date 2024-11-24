@@ -20,7 +20,7 @@ app.get("/currencies", getCurrencies);
 app.get("/currencies/:symbol", getCurrencyBySymbol);
 
 app.get("/users", getUsers);
-app.get("/users/search", searchUsers);
+app.get("/users/search", searchUsers); // Always needs to be on top before the dynamic values as below
 app.get("/users/:uuid", getUserById);
 
 app.listen(PORT, () => {
