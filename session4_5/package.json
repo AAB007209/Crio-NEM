@@ -1,5 +1,5 @@
 {
-  "name": "session3",
+  "name": "session4_5",
   "version": "1.0.0",
   "description": "This is the Classical default exports demo",
   "main": "index.js",
@@ -16,6 +16,6 @@
   "dependencies": {
     "express": "^4.21.1",
     "joi": "^17.13.3",
-    "mongoose": "^8.8.2"
+    "mongoose": "^8.8.3"
   }
 }
