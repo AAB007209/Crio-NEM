@@ -20,10 +20,10 @@ app.use(express.json()); // looking for the request header which contains conten
 
 connectDB(); // Calling the MongoDB function
 
-app.use(verifyAuth);
+// app.use(verifyAuth);
 
 app.get("/", (req, res) => {
-    res.send("<h1>Currency and User Database</h1>");
+  res.send("<h1>Currency and User Database</h1>");
 });
 
 // Two main Routes defined here
@@ -32,13 +32,8 @@ app.use("/users", userRouter);
 app.use("/blogs", blogsRouter);
 
 app.listen(PORT, () => {
-    console.log(`Server lisenting on PORT:${PORT}`);
+  console.log(`Server lisenting on PORT:${PORT}`);
 });
-
-
-
-
-
 
 
 

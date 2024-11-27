@@ -1,10 +1,19 @@
 const mongoose = require("mongoose");
 
+// Session-5
+// const blogSchema = new mongoose.Schema({
+//     "title": String,
+//     "authors": [String],
+//     "content": String,
+//     "publishedAt": Date,
+// });
+
+// Session-6 (The schema can be more specific and little complex)
 const blogSchema = new mongoose.Schema({
-    "title": String,
-    "authors": [String],
-    "content": String,
-    "publishedAt": Date,
+    "title": { type: String, required: true, unique: true },
+    "authors": { type: [String], default: [] },
+    "content": { type: String, default: "" },
+    "publishedAt": { type: Date, default: null },
 });
 
 // General convention to use the capital B for the Blog and use singular form, Schema
@@ -17,5 +26,7 @@ module.exports = blogModel;
 /*
 - .Schema() is like the constructor function called using new keyword.
 -.model() is the mongoose function
+
+- title is required and its unique. Two blogs with same title cannot exist
 
 */
