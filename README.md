@@ -16,10 +16,12 @@ This Repository contains the code for the Node Express and MongoDB learning
 - (Session 4): Adding Middleware (Very Important).
 
 ## Session 5
-- Interacting with Data from Database (MongoDB) using Mongoose library.
-
-## Session 6 (Crud Operations)
+- Interacting with Data in Database (MongoDB).
+- Learnt about various commands to interact with MongoDB using its shell mongosh.
+- Created all the Necessary basic structures to interact with MongoDB (Schema and Models).
 - Creating a new Blog entry into the Database (Create).
+
+## Session 6 (CRUD Operations)
 - Reading all the Blogs + Reading particular Blog by its Id (Read).
 - Updating the Blog with its Id.
 - Deleting the Blog from its Id.
