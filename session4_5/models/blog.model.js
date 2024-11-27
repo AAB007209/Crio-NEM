@@ -14,7 +14,11 @@ const blogSchema = new mongoose.Schema({
     "authors": { type: [String], default: [] },
     "content": { type: String, default: "" },
     "publishedAt": { type: Date, default: null },
-});
+}, {
+    timestamps: true,
+    versionKey: false, // To disable "__v" from the Documents
+}
+);
 
 // General convention to use the capital B for the Blog and use singular form, Schema
 const blogModel = mongoose.model("Blog", blogSchema, "blogs"); // Third argument is Collection is optinal. If not provided it will defaults to plural form of the model name. (blog(model) -> blogs)
