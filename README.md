@@ -29,4 +29,5 @@ This Repository contains the code for the Node Express and MongoDB learning
 
 ## Extra Session-1 (Session 6)
 - Adding Validations to Data Model Schema fields using Validator Package. We can create our own Validate function using Mongoose Package.
-- Learnt how to use Regular Expression (RegExp) for searching. Created new route "/blogs/search?..." for getting blogs using title and author.
+- Learnt how to use Regular Expression (RegExp) for searching. Created new route `/blogs/search?...` for getting blogs using title and author.
+- Made use of MongoDB Query Operators (Logical Query Operator `$and`, Array Query Operator `$elemMatch`)
