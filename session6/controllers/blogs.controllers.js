@@ -75,15 +75,6 @@ const deleteBlogById = async (req, res) => {
     }
 }
 
-// ----- Creating a Regular Expression (RegExp) for title
-// const titleRegex = new RegExp(title, "i"); // i -> case insensitive regex
-// res.send(await Blog.find({ title: titleRegex }));
-
-// One more way to do the same as above using MongoDB $regex
-// res.send(await Blog.find({ title: { $regex: new RegExp(title, "i") } }));
-// or
-// res.send(await Blog.find({ title: { $regex: new RegExp(title), $options: "i" } }));
-
 // - GET http://localhost:8082/blogs/search?title="AWS%20Blog-11%20with%20Terry"
 // - GET http://localhost:8082/blogs/search?author=johnterry@afc.co.in
 const searchBlogs = async (req, res) => {

@@ -26,3 +26,7 @@ This Repository contains the code for the Node Express and MongoDB learning
 - Updating the Blog with its Id.
 - Deleting the Blog from its Id.
 - Created a middleware function findBlogWithId applied to GET, PATCH and DELETE methods in router.
+
+## Extra Session-1 (Session 6)
+- Adding Validations to Data Model Schema fields using Validator Package. We can create our own Validate function using Mongoose Package.
+- Learnt how to use Regular Expression (RegExp) for searching. Created new route "/blogs/search?..." for getting blogs using title and author.
