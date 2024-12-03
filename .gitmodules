@@ -1,0 +1,6 @@
+[submodule "disfo-frontend"]
+	path = disfo-frontend
+	url = https://gitlab.crio.do/public_content/node-sprint-sessions/disfo-frontend
+[submodule "disfo"]
+	path = disfo
+	url = https://gitlab.crio.do/public_content/node-sprint-sessions/disfo
