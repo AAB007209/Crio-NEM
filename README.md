@@ -37,3 +37,16 @@ This Repository contains the code for the Node Express and MongoDB learning
 
 ## Session 8
 - Q-kart Backend Intro
+- Disfo (Frontend & Backend) Initial Setup.
+  - Created two routes `/auth/signup` and `/auth/login`
+
+## Session 9
+- Created an AuthService for the signup service.
+- postSignup function for creating a new user.
+- Added ValidateUser validation to `/auth/signup` route.
+- Used Bcrypt package for Hashing passwords.
+- ComparePassword function using bcrypt.compare() to validate the user password.
+
+## Session 10
+- Used JWT (jsonwebtoken) package for the stateless check for user logged in or not. For generating and verifying the JWT two functions created.
+- Created a JWT authorize middleware `authorize-jwt.middleware.js`.
