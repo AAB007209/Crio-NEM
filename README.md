@@ -50,3 +50,4 @@ This Repository contains the code for the Node Express and MongoDB learning
 ## Session 10
 - Used JWT (jsonwebtoken) package for the stateless check for user logged in or not. For generating and verifying the JWT two functions created.
 - Created a JWT authorize middleware `authorize-jwt.middleware.js`.
+- Used Passport.js package for Authorization step instead of JWT Verify.
