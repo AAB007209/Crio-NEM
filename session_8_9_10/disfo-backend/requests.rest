@@ -1,0 +1,32 @@
+POST http://localhost:8082/auth/signup
+Content-Type: application/json
+
+# {
+#     "email": "lm10@rmcf.com",
+#     "username": "lm10",
+#     "password": "lukita@crotia10"
+# }
+
+{
+    "email": "reacher@usss.com",
+    "username": "reacher",
+    "password": "reacher@jack"
+}
+
+###
+POST http://localhost:8082/auth/login
+Content-Type: application/json
+
+# {
+#     "username": "lm10",
+#     "password": "lukita@crotia10"
+# }
+
+{
+    "username": "reacher",
+    "password": "reacher@jack"
+}
+
+###
+GET http://localhost:8082/user/reacher
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU1Y2Q4YjIwNWI5YzZjMDg0OWU2ZjMiLCJpYXQiOjE3MzM2ODA0MTUsImV4cCI6MTczMzY4MDQ3NX0.cFvi-WxoyN_m3cTBUOEKIcuvzMPORt4K1-jG6RuEYNo
