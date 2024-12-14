@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
   res.send("<h1>Currency and User Database</h1>");
 });
 
-// Two main Routes defined here
+// Three main Routes defined here
 app.use("/currencies", currenciesRouter);
 app.use("/users", userRouter);
 app.use("/blogs", blogsRouter);
