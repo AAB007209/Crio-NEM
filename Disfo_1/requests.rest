@@ -1,0 +1,15 @@
+POST http://localhost:8082/user/register
+Content-Type: application/json
+
+{
+    "fullname": "Logan Paul",
+    "username": "",
+    "email": "loganpaul@gmail.com"
+}
+
+###
+GET http://localhost:8082/user/all
+x-api-key: Abracadabra
+
+###
+GET http://localhost:8082/user/Terry007
