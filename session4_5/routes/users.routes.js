@@ -21,6 +21,7 @@ module.exports = router;
 
 // - Learnings
 /*
-- Here the next() of the verifyAuth middleware function would be the next route below the getUsers which is searchUsers function and so on.
+- Here the next() of the verifyAuth middleware function would be the route beside it which is getUsers here.
+- Only when the verifyAuth is successfull, meaning the password sent in headers matched the password we stored in .env file, the next() is executed.
 
 */
