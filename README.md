@@ -55,3 +55,8 @@ This Repository contains the code for the Node Express and MongoDB learning
 ## Session 11
 - Q-kart Backend Module 1 Debrief
 - Some Interview Questions
+
+## Sprint End Summary
+- Understood the Basics of Node, Express and MongoDB very well.
+- Start building Full stack projects.
+- Build Minor projects to start with and expand on those later.
